@@ -1,57 +1,67 @@
-# 🏙️ Análise de Desigualdade Urbana
+# 🏙️ Urban Inequality Analysis — Análise de Desigualdade Urbana  
+Análise e visualização das disparidades socioeconômicas e de infraestrutura entre bairros, utilizando dados do Censo e técnicas de geoprocessamento, com o objetivo de apoiar políticas urbanas mais justas e inclusivas.
 
-Projeto de ciência de dados exploratória para analisar desigualdades urbanas em diferentes bairros, utilizando dados socioeconômicos e geoespaciais. O objetivo é visualizar disparidades em renda, saneamento, educação e outros serviços básicos, apoiando políticas públicas mais eficazes.
+---
 
-## 📌 Motivação
+## 🎯 Objetivo  
+- Mapear desigualdades socioeconômicas e de infraestrutura em áreas urbanas;  
+- Identificar padrões espaciais de exclusão e vulnerabilidade;  
+- Fornecer insights para a formulação de políticas públicas urbanas equitativas.
 
-Compreender **onde** e **como** a desigualdade se manifesta nas cidades é essencial para desenhar intervenções direcionadas. Este projeto utiliza dados públicos e técnicas geoespaciais para mapear vulnerabilidades urbanas e evidenciar desigualdades.
+---
 
-## 📊 O que está incluído
+## 🧰 Tecnologias e Ferramentas  
+- Python (Pandas, GeoPandas, Folium, Matplotlib, Seaborn, Plotly)  
+- Jupyter Notebooks  
+- SIG (Sistemas de Informação Geográfica)  
+- Dados do IBGE (Censo Demográfico) e outras fontes públicas  
+- Git e GitHub
 
-- 📍 Mapeamento de bairros por renda, educação e infraestrutura
-- 🧼 Acesso ao saneamento básico por distrito
-- 🏫 Disponibilidade de escolas x densidade populacional
-- 📈 Correlação entre renda e acesso a serviços públicos
-- 🗺️ Visualizações geoespaciais interativas
+---
 
-## 🧰 Tecnologias Utilizadas
-
-- `Python`
-- `pandas`, `geopandas`, `folium`, `plotly`, `matplotlib`
-- Dados do Censo do IBGE
-- Jupyter Notebook
-
-## 📁 Estrutura do Projeto
-
+## 📁 Estrutura do Projeto  
 urban-inequality-analysis/
-├── data/ # Bases de dados brutas e tratadas
-├── notebooks/ # Análises exploratórias e mapas
-├── scripts/ # Funções reutilizáveis e limpeza de dados
-├── results/ # Mapas e gráficos gerados
-└── README.md
+├── data/ # Dados brutos e processados
+├── notebooks/ # Análises em Jupyter Notebooks
+├── src/ # Scripts auxiliares e funções
+├── preprocessing/ # Limpeza e preparação dos dados
+├── outputs/ # Mapas, gráficos e relatórios
+├── analise/ # Relatórios e interpretações
+├── docs/ # Documentação complementar
+├── tests/ # Testes e validações do código
+├── README.md # Este arquivo
+├── requirements.txt # Dependências do projeto
+├── .gitignore # Arquivos a serem ignorados pelo Git
+└── LICENSE # Licença do projeto
 
+yaml
+Copiar
+Editar
 
-## 📌 Exemplos de Resultados
+---
 
-![Exemplo de Mapa de Desigualdade](results/inequality_map_example.png)
+## 📊 Fontes de Dados  
+- IBGE – Censo Demográfico  
+- Dados geoespaciais públicos (shapefiles, mapas municipais)  
+- Dados socioeconômicos oficiais  
 
-## 📍 Fontes de Dados
+---
 
-- Censo 2010 (IBGE)
-- Shapefiles GeoJSON de bairros ou distritos
-- Portais municipais de dados abertos (opcional)
+## 🔍 Possíveis Perguntas de Pesquisa  
+- Quais bairros apresentam maiores desigualdades socioeconômicas?  
+- Como a infraestrutura urbana varia entre diferentes regiões da cidade?  
+- Existe correlação entre indicadores sociais e acesso a serviços públicos?  
+- Quais áreas são prioritárias para intervenções urbanas inclusivas?
 
-## 💡 Principais Insights
+---
 
-- Identificação de regiões urbanas mais vulneráveis
-- Comparações entre bairros e distritos
-- Subsídios para decisões de alocação territorial de políticas públicas
+## 📌 Status do Projeto  
+🟢 Em desenvolvimento
 
-## ✅ Como usar
+---
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/urban-inequality-analysis.git
+## 📄 Licença  
+Este projeto está licenciado sob os termos da **MIT License**.
    cd urban-inequality-analysis
 
 🤝 Contribuições
