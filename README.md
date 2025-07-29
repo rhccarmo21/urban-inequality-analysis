@@ -1,4 +1,4 @@
-# 🏙️ Urban Inequality Analysis — Análise de Desigualdade Urbana  
+# 🏙️ Análise de Desigualdade Urbana  
 Análise e visualização das disparidades socioeconômicas e de infraestrutura entre bairros, utilizando dados do Censo e técnicas de geoprocessamento, com o objetivo de apoiar políticas urbanas mais justas e inclusivas.
 
 ---
