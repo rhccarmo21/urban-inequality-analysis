@@ -62,9 +62,3 @@ Editar
 
 ## 📄 Licença  
 Este projeto está licenciado sob os termos da **MIT License**.
-   cd urban-inequality-analysis
-
-🤝 Contribuições
-Sugestões, melhorias e adaptações para outras cidades são muito bem-vindas! Sinta-se à vontade para contribuir com o projeto.
-
-📫 Dúvidas ou sugestões? Entre em contato: rhccarmo@gmail.com 
