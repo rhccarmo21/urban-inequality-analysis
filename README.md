@@ -19,24 +19,32 @@ Análise e visualização das disparidades socioeconômicas e de infraestrutura 
 
 ---
 
-## 📁 Estrutura do Projeto  
-urban-inequality-analysis/
+## 📁 Estrutura do Projeto urban-inequality-analysis/
+
 ├── data/ # Dados brutos e processados
+
 ├── notebooks/ # Análises em Jupyter Notebooks
+
 ├── src/ # Scripts auxiliares e funções
+
 ├── preprocessing/ # Limpeza e preparação dos dados
+
 ├── outputs/ # Mapas, gráficos e relatórios
+
 ├── analise/ # Relatórios e interpretações
+
 ├── docs/ # Documentação complementar
+
 ├── tests/ # Testes e validações do código
+
 ├── README.md # Este arquivo
+
 ├── requirements.txt # Dependências do projeto
+
 ├── .gitignore # Arquivos a serem ignorados pelo Git
+
 └── LICENSE # Licença do projeto
 
-yaml
-Copiar
-Editar
 
 ---
 
